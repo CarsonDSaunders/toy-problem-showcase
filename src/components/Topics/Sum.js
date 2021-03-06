@@ -39,7 +39,7 @@ class Sum extends Component {
                 <h4>Sum</h4>
                 <input className='inputLine' type='number' onChange={e => this.handleChange1(e.target.value)}></input>
                 <input className='inputLine' type='number' onChange={e => this.handleChange2(e.target.value)}></input>
-                <button className='confirmationButton' onClick={() => this.summer(this.state.number1, this.state.number2)}>Click to Split</button>
+                <button className='confirmationButton' onClick={() => this.summer(this.state.number1, this.state.number2)}>Click to Find Sum</button>
                 <span className='resultsBox'>Sum: {this.state.sum}</span>
             </div>
         )
