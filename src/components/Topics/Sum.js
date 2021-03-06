@@ -36,7 +36,7 @@ class Sum extends Component {
     render() {
         return (
             <div className='puzzleBox sumPB'>
-                <h4>Evens and Odds</h4>
+                <h4>Sum</h4>
                 <input className='inputLine' type='number' onChange={e => this.handleChange1(e.target.value)}></input>
                 <input className='inputLine' type='number' onChange={e => this.handleChange2(e.target.value)}></input>
                 <button className='confirmationButton' onClick={() => this.summer(this.state.number1, this.state.number2)}>Click to Split</button>
